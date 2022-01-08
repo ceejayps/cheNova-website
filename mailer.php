@@ -1,8 +1,8 @@
 <?php
-$servername = "mysqlcluster14";
-$username = "Chenova1";
-$password = "Chenova2020";
-$databaseName = "chenova";
+$servername = "";
+$username = "";
+$password = "";
+$databaseName = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password,$databaseName);
