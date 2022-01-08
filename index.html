@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script>window.onload = function () {
+			document.getElementById('home-bg-video').play();
+
+		}</script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Che'Nova | Home</title>
+	<!-- Favicon -->
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Line icon -->
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+	<!-- Bootstrap -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Slick slider -->
+	<link href="assets/css/slick.css" rel="stylesheet">
+	<!-- Gallery Lightbox -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Theme color -->
+	<link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+
+	<!-- Main Style -->
+	<link href="style.css" rel="stylesheet">
+
+	<!-- Fonts -->
+
+	<!-- Open Sans for body font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+	<!-- Montserrat for Title -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body onload="play()" id="mybod">
+	<div id="popuppruds" class="holder" onclick="document.getElementById('popuppruds').style.visibility = 'hidden';">
+
+		<div class="thispopup ">
+			<div class="heading">
+				<h2 class="headdingtitle center">PRODUCTS</h2>
+			</div>
+			<ul>
+				<li class="center list_item"> <a href="products.html" class="here">All</a> </li>
+				<li class="center list_item"> <a href="products.html" class="here">Pre Cleansers</a> </li>
+				<li class="center list_item"> <a href="products.html" class="here">Cleansers</a> </li>
+				<li class="center list_item"> <a href="products.html" class="here">Toners</a> </li>
+				<li class="center list_item"> <a href="products.html" class="here">Serums</a> </li>
+				<li class="center list_item"> <a href="products.html" class="here">Eye Creams</a> </li>
+				<li class="center list_item"> <a href="products.html" class="here">Moisturizers</a> </li>
+				<li class="center list_item"> <a href="products.html" class="here">Sunscreens</a> </li>
+			</ul>
+
+		</div>
+	</div>
+
+
+
+	<section id="levideo">
+		<video src="assets/videos/video.mp4" id="home-bg-video" autoplay playsinline loop muted></video>
+	</section>
+	<section id="lebody">
+		<!-- Start Header -->
+		<header id="mu-header" class="" role="banner">
+
+
+
+
+
+
+
+
+			<div class="container hideonmoble">
+				<nav class="navbar navbar-default mu-navbar ">
+					<div>
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+
+
+							<!-- Text Logo -->
+							<!--a class="navbar-brand" href="#">Che' Nova</a-->
+
+							<!-- Image Logo -->
+							<a href="#"><img class=" myLogo" src="assets/images/logo1024.png"></a>
+
+
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse">
+							<ul class="nav navbar-nav mu-menu navbar-right">
+								<li>
+									<a href="#">HOME</a>
+								</li>
+
+
+
+
+
+
+								<li class="products newVanish" id="products-menu">
+									<a href="#products" class="products" onclick="mymagic()">PRODUCTS</a>
+
+									<ul class="ani-menu" id="ani-menu"
+										style="visibility: hidden; list-style-type: none;">
+										<li class="ani-menu-item" href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">All</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Pre cleansers</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Cleaners</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Toners</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Serums</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Eye Creams</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Moisturizers</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Sunscreens</a></li>
+									</ul>
+								</li>
+
+
+								<div class="dropdown">
+									<a href="#mu-about">ABOUT US</a>
+									<a href="#mu-service">SERVICES</a>
+									<a href="#mu-skin">YOUR SKIN</a>
+									<a href="#mu-contact">CONTACT</a>
+								</div>
+								<li>
+									<a href="#mu-about">ABOUT US</a>
+								</li>
+								<li>
+									<a href="#mu-service">SERVICES</a>
+								</li>
+								<li>
+									<a href="#mu-skin">YOUR SKIN</a>
+								</li>
+								<li>
+									<a href="#mu-contact">CONTACT</a>
+								</li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<div class="container ivanishs">
+				<nav class="navbar navbar-default mu-navbar " id="navi">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								onclick="document.getElementById('popuppruds').style.visibility = 'hidden';"
+								data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+
+							<!-- Text Logo -->
+							<!--a class="navbar-brand" href="#">Che' Nova</a-->
+
+							<!-- Image Logo -->
+							<a href="#"><img class=" myLogo" src="assets/images/logo1024.png"></a>
+
+
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav mu-menu navbar-right">
+								<li onclick="myclaps()">
+									<a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+										aria-expanded="false" href="#">HOME</a>
+								</li>
+
+
+
+
+
+
+								<li class="products newVanish" id="products-menu">
+									<a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+										aria-expanded="false" href="#products" class="products" onclick="mymagic()"
+										onmouseover=";">PRODUCTS</a>
+
+									<ul class="ani-menu" id="ani-menu"
+										style="visibility: hidden; list-style-type: none;">
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">All</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Pre cleansers</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Cleaners</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Toners</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Serums</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Eye Creams</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Moisturizers</a></li>
+										<li class="ani-menu-item" data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+											href="products.html"
+											onclick="document.getElementById('ani-menu').style.visibility = 'hidden';">
+											<a href="products.html">Sunscreens</a></li>
+									</ul>
+								</li>
+
+
+								<div class="dropdown">
+									<a href="#mu-about">ABOUT US</a>
+									<a href="#mu-service">SERVICES</a>
+									<a href="#mu-skin">YOUR SKIN</a>
+									<a href="#mu-contact">CONTACT</a>
+								</div>
+								<li>
+									<a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+										aria-expanded="false" href="#mu-about">ABOUT US</a>
+								</li>
+								<li>
+									<a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+										aria-expanded="false" href="#mu-service">SERVICES</a>
+								</li>
+								<li>
+									<a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+										aria-expanded="false" href="#mu-skin">YOUR SKIN</a>
+								</li>
+								<li>
+									<a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+										aria-expanded="false" href="#mu-contact">CONTACT</a>
+								</li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</div>
+		</header>
+		<!-- End Header -->
+
+		<!-- Start Featured Slider -->
+
+		<section id="mu-featured-slider">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mu-featured-slide">
+
+						<!-- Start Single slide -->
+						<div class="mu-featured-slider-single">
+							<img src="assets/images/skin1.jpg" width="100%">
+							<div class="mu-featured-slider-content">
+								<h1>Ché Nova Aesthetics</h1>
+								<p>Where Beauty and Skin Care Go Hand in Hand</p>
+								<a href="https://www.vagaro.com/chenovaaesthetics/book-now" class="mu-primary-btn">BOOK
+									APPOINTMENT</a>
+							</div>
+						</div>
+						<!-- End Single slide -->
+
+						<!-- Start Single slide -->
+						<div class="mu-featured-slider-single">
+							<img src="assets/images/skin2.jpg" width="100%">
+							<div class="mu-featured-slider-content">
+								<h1>Ché Nova Aesthetics</h1>
+								<p>Where Beauty and Skin Care Go Hand in Hand </p>
+								<a href="https://www.vagaro.com/chenovaaesthetics/book-now" class="mu-primary-btn">BOOK
+									APPOINTMENT</a>
+							</div>
+						</div>
+
+						<!-- End Single slide -->
+
+						<!-- Start Single slide -->
+						<div class="mu-featured-slider-single">
+							<img src="assets/images/skin3.jpg" width="100%">
+							<div class="mu-featured-slider-content">
+								<h1>Ché Nova Aesthetics</h1>
+								<p>Where Beauty and Skin Care Go Hand in Hand </p>
+								<a href="https://www.vagaro.com/chenovaaesthetics/book-now" class="mu-primary-btn">BOOK
+									APPOINTMENT</a>
+							</div>
+						</div>
+						<!-- End Single slide -->
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Start Featured Slider -->
+
+		<!-- Start main content -->
+
+		<main role="main">
+
+			<!-- Start About -->
+			<section id="mu-about">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-about-area">
+
+								<div class="mu-about-header">
+									<h2 class="mu-heading-title">About <span class="mybaby">Us</span></h2>
+									<span class="mu-header-dot"></span>
+									<p>Learn about us, our mission, our founder, and our biography</p>
+								</div>
+
+								<!-- Start About Us Content -->
+								<div class="mu-about-content">
+									<div class="row">
+
+										<!-- About Us Single Content -->
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-about-content-single">
+												<span class="mu-about-icon-box">
+													<a href="about.html"><img height="50"
+															src="assets/images/icons/chenova.png"> </a>
+												</span>
+												<h4>Che' Nova Aesthetics</h4>
+											</div>
+										</div>
+										<!-- / About Us Single Content -->
+
+										<!-- About Us Single Content -->
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-about-content-single">
+												<span class="mu-about-icon-box">
+													<a href="about.html#mu-service"><img height="50"
+															src="assets/images/icons/che.png"></a>
+												</span>
+												<h4>Che' Nova</h4>
+											</div>
+										</div>
+										<!-- / About Us Single Content -->
+
+										<!-- About Us Single Content -->
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-about-content-single">
+												<span class="mu-about-icon-box">
+													<a href="about.html#mu-counter">
+														<img height="50" src="assets/images/icons/mission.png">
+													</a>
+												</span>
+												<h4>Our mission</h4>
+											</div>
+										</div>
+										<!-- / About Us Single Content -->
+
+										<!-- About Us Single Content -->
+										<div class="col-md-3 col-sm-6 boutt">
+											<div class="mu-about-content-single">
+												<span class="mu-about-icon-box">
+													<a href="about.html#Philosophy">
+														<!--i class="icon-docs"></i-->
+														<img height="50" src="assets/images/icons/phylosophy.png"
+															alt="">
+													</a>
+												</span>
+												<h4>Philosophy</h4>
+											</div>
+										</div>
+										<!-- / About Us Single Content -->
+
+									</div>
+								</div>
+								<!-- End About Us Content -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End About -->
+
+			<!-- Start Counter -->
+			<section id="mu-counter">
+				<div class="container vanish">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-counter-area">
+								<h2 class="mu-heading-title">Gallery</h2>
+
+
+								<div class="mu-counter-block ">
+									<div class="gallery" id="instafeed">
+
+
+
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Counter -->
+
+			<!-- Start Service -->
+			<section id="mu-service">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-service-area">
+
+								<div class="mu-service-header">
+									<h2 class="mu-heading-title">Our <span class="mybaby">Services</span></h2>
+									<span class="mu-header-dot"></span>
+									<p class="ivanish"> Che' Nova is especially known for her facials and extractions,
+										stimulating the
+										facial tissues and removing blackheads, whites heads and oil deposits, leaving
+										the
+										skin feeling and looking radiant. The products used in the spa are the absolute
+										best
+										in quality and can be purchased at the spot for your personal regimen.
+
+										<br><br>
+
+										Che' Nova is a perfectionist, especially when it comes to waxing. Whether a
+										bikini
+										wax or a Brazilian wax, Che' Nova will make the waxing experience a pleasant
+										one;
+										and her special techniques and products will make the experience nearly
+										painless.
+										Che' Nova's care and attention to detail will always give the client a
+										satisfying
+										hairless result. </p>
+								</div>
+
+								<!-- Start Service Content -->
+								<div class="mu-service-content">
+									<div class="row">
+
+										<!-- Service Single Content -->
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-service-content-single">
+												<span class="mu-service-icon-box">
+													<img height="40" src="assets/images/icons/face.png">
+												</span>
+												<h4>Facials</h4>
+												<p class="">A series of treatments
+													performed for the purposes of beautifying your skin, in some
+													cases treat a specific condition.</p>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+
+										<!-- Service Single Content -->
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-service-content-single">
+												<span class="mu-service-icon-box">
+													<img height="40" src="assets/images/icons/derm.png">
+												</span>
+												<h4>Dermaplaning</h4>
+												<p class="">Dermaplaning is a mechanical form of exfoliation that gently
+													removes dead skin cells and peach fuzz from the epidermis..</p>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+
+										<!-- Service Single Content -->
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-service-content-single">
+												<span class="mu-service-icon-box">
+													<img height="40" src="assets/images/icons/browtinting.png">
+												</span>
+												<h4>Brow Tinting</h4>
+												<p class="">Brow tinting enhances the color of the brow by using
+													semi-permanent dye to tint the brows. </p>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+
+										<!-- Service Single Content -->
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-service-content-single">
+												<span class="mu-service-icon-box">
+													<img height="40" src="assets/images/icons/lash.png">
+												</span>
+												<h4>Lash Extensions</h4>
+												<p class="">Lash Extensions enhances the length, structure, and fullness
+													of the natural lash.</p> <br>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+
+										<!-- Service Single Content -->
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-service-content-single">
+												<span class="mu-service-icon-box">
+													<img height="40" src="assets/images/icons/wax.png">
+												</span>
+												<h4>Waxing</h4>
+												<p class="">Waxing removes unwanted hair from different parts of the
+													body. (Hard and soft wax are available)</p>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+
+										<!-- Service Single Content -->
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-service-content-single">
+												<span class="mu-service-icon-box">
+													<img height="40" src="assets/images/icons/chem.png">
+												</span>
+												<h4>Chemical Peels</h4>
+												<p class="">Chemical Peels use specific chemicals to remove
+													dead skin cells, treat acne and hyperpigmentation as well as other
+													skincare conditions.</p>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-service-content-single">
+												<span class="mu-service-icon-box">
+													<img height="40" src="assets/images/icons/shaping.png">
+												</span>
+												<h4>Brow Shaping </h4>
+												<p class="">Enhances the brows by removing unwanted hair to give a
+													desired look, according to the structure of your face.
+												</p>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+
+										<!-- Service Single Content -->
+
+										<!-- / Service Single Content -->
+
+										<!-- Service Single Content -->
+										<div class="col-md-3 col-sm-6">
+											<div class="mu-service-content-single">
+												<span class="mu-service-icon-box">
+													<img height="40" src="assets/images/icons/more.png">
+												</span>
+												<h4>and more </h4>
+												<p class=""></p>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+
+									</div>
+								</div>
+								<!-- End Service Content -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Service -->
+
+			<!-- Start Portfolio -->
+
+			<!-- End Portfolio -->
+
+			<!-- Start Team -->
+
+			<!-- End Team -->
+
+			<!-- Start Testimonials -->
+			<!--section id="mu-testimonials">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-testimonials-area">
+							<h2 class="mu-heading-title">Client <span>Testimonials</span></h2>
+
+							<div class="mu-testimonials-block">
+								<ul class="mu-testimonial-slide">
+
+									<li>
+										<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."</p>
+										<h5 class="mu-ct-name"> - Jhon Doe</h5>
+										<span class="mu-ct-title">CEO, Apple Inc.</span>
+									</li>
+
+									<li>
+										<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."</p>
+										<h5 class="mu-ct-name"> - Alice Boga</h5>
+										<span class="mu-ct-title">Director, Google Inc.</span>
+									</li>
+
+									<li>
+										<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."</p>
+										<h5 class="mu-ct-name"> - Jhon Smith</h5>
+										<span class="mu-ct-title">Web Developer</span>
+									</li>
+
+								</ul>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section-->
+			<!-- End Testimonials -->
+
+
+			<!-- Start Clients -->
+
+			<!-- End Clients -->
+
+			<!-- Start Service -->
+			<section id="mu-service">
+				<div class="container" id="mu-skin">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-service-area">
+
+								<div class="mu-service-header">
+									<h2 class="mu-heading-title">Skin<span class="mybaby"></span></h2>
+									<span class="mu-header-dot"></span>
+									<p class="boldmeup ivanish">Che' Nova Lane is the owner and founder of Che' Nova
+										Aesthetics in Towson, Maryland.
+										<br class="appear">
+									</p>
+
+									<div class="mycolumwrap">
+										<div class="leftclum  my_colum">
+											<img src="assets/images/skin0.jpg" alt="" height="500px">
+											<br>
+											<p class="ivanish"> <span class="boldmeup center ">Che' Nova Lane</span>
+												<br> Proprietor-
+												Certified Esthetician
+												<span class="appear">(owner and founder)</span> </p>
+
+										</div>
+
+										<div class="rightclum  my_colum">
+											<br class="appear">
+											<p> Your SKIN is the largest organ of your body. It has six primary
+												functions which
+												are protection, heat regulation, secretion, excretion, sensation, and
+												absorption.
+												Without proper nourishment it is impossible for your skin to serve these
+												purposes. <br><br>
+
+												Skincare specialists typically do the following:
+
+											<ul style="margin-left: 20px; text-align: left;">
+												<li>perform a skin analysis to determine clients' skin type and
+													condition</li>
+												<li>perform recommended treatments</li>
+												<li>recommend products that will improve the quality of the skin</li>
+
+											</ul>
+											<br>
+											It is not unusual to experience skincare issues. At some point you may
+											experience acne, hormonal breakouts, uneven skin tone, or signs of ageing.
+											Consulting with an esthetician is the first step towards improving your
+											skin.
+											</p>
+
+
+										</div>
+
+
+
+
+
+									</div>
+
+									<div class="last">
+
+
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+						<!-- End Service Content -->
+
+					</div>
+				</div>
+				</div>
+				</div>
+			</section>
+			<!-- End Service -->
+
+
+
+			<!-- Start Contact -->
+			<section id="mu-contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-contact-area">
+
+								<div class="mu-contact-header">
+									<h2 class="mu-heading-title">Contact <span class="mybaby">Us</span></h2>
+									<span class="mu-header-dot"></span>
+									<!--p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p-->
+								</div>
+
+								<!-- Start Contact Content -->
+								<div class="mu-contact-content">
+									<div class="row">
+
+										<div class="col-md-8">
+											<div class="mu-contact-left">
+												<div id="form-messages"></div>
+												<form id="ajax-contact" method="post" action="mailer.php"
+													class="mu-contact-form">
+													<div class="form-group">
+														<input type="text" class="form-control" placeholder="Name"
+															id="name" name="name" required>
+													</div>
+													<div class="form-group">
+														<input type="email" class="form-control"
+															placeholder="Enter Email" id="email" name="email" required>
+													</div>
+													<div class="form-group">
+														<textarea class="form-control" placeholder="Message"
+															id="message" name="message" required></textarea>
+													</div>
+													<button type="submit"
+														class="mu-send-msg-btn"><span>SUBMIT</span></button>
+												</form>
+											</div>
+										</div>
+
+										<div class="col-md-4">
+											<div class="mu-contact-right">
+												<h4>Che' Nova</h4>
+												<!--p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p-->
+												<address>
+													<p><i class="icon-location-pin"></i>17 W. Pennsylvania Avenue, Suite 110 Towson, MD 21204</p>
+													<p><i class="icon-envelope"></i>Che@chenova.net</p>
+													<p><i class="icon-phone"></i>(410) 705-5813</p>
+												</address>
+												<div class="mu-social-media">
+													<a href="https://www.facebook.com/chenovaaesthetics/"><i
+															class="icon-social-facebook"></i></a>
+
+													<a href="https://instagram.com/chenovaaesthetics"><i
+															class="icon-social-instagram"></i></a>
+													<!--a href="#"><i class="icon-social-linkedin"></i></a>
+													<a href="#"><i class="icon-social-twitter"></i></a>
+													<a href="#"><i class="icon-social-youtube"></i></a-->
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<!-- End Contact Content -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Contact -->
+
+			<!-- Start Google Map -->
+			<section id="mu-google-map">
+
+				<iframe
+					src="https://www.google.com/maps/embed/v1/place?q=The+address+is+17+W.+Pennsylvania+Avenue,+Suite+110+Towson,+MD+21204&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+					width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</section>
+
+			
+			<!-- End Google Map -->
+
+		</main>
+
+		<!-- End main content -->
+
+
+		<!-- Start footer -->
+		<footer id="mu-footer" role="contentinfo">
+			<div class="container">
+				<div class="mu-footer-area">
+					<p>&copy; Copyright <a rel="nofollow" href="https://chenova.net/">chenova.net</a>. All right
+						reserved.
+					</p>
+				</div>
+			</div>
+
+		</footer>
+		<!-- End footer -->
+
+		<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+		<script type="text/javascript">
+
+			var userFeed = new Instafeed({
+				get: 'user',
+				
+				limit: 12,
+				resolution: 'standard_resolution',
+				accessToken: 'IGQVJYUnU0UGhEY1RzWG8tYVB6SXVtZAXVzYXY5NGNiQ3dVc29HRnNsRzVRNHV1Nkd3RzNESjV6ZAlZAmS3FSVHhNenNpdDlYRGloQXNtRWxSSkg1SDNxRkUyU3dIdGRCUmZAubW9TSkVSYU1HRjFaM2lsdQZDZD',
+				sortBy: 'most-recent',
+				template: '<div class="col-lg-2 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img  src="{{image}}" alt="{{caption}}"  class="img-fluid"/></a></div>',
+			});
+			userFeed.run();
+
+			// This will create a single gallery from all elements that have class "gallery-item"
+			$('.gallery').magnificPopup({
+				type: 'image',
+				delegate: 'a',
+				gallery: {
+					enabled: true
+				}
+			});
+
+
+
+
+		</script>
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<!-- Bootstrap -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- Slick slider -->
+		<script type="text/javascript" src="assets/js/slick.min.js"></script>
+		<!-- Counter js -->
+		<script type="text/javascript" src="assets/js/counter.js"></script>
+		<!-- Filterable Gallery js -->
+		<script type="text/javascript" src="assets/js/jquery.filterizr.min.js"></script>
+		<!-- Gallery Lightbox -->
+		<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- Ajax contact form  -->
+		<script type="text/javascript" src="assets/js/app.js"></script>
+
+
+		<!-- Custom js -->
+		<script type="text/javascript" src="assets/js/custom.js"></script>
+
+		<script type="text/javascript">
+			function myclaps() {
+				$('.collapsed').collapse()
+			}
+
+			function show() {
+				document.getElementById('ani-menu').style.visibility = 'visible';
+			}
+
+			function play() {
+				document.getElementById('home-bg-video').play();
+			}
+			document.getElementById('home-bg-video').play();
+
+			setTimeout(function () {
+				$('#levideo').fadeOut('slow');
+				$('#navi').fadeIn();
+
+
+
+			}, 5000);
+			setTimeout(function () {
+				$('#lebody').fadeIn();
+
+
+
+			}, 3000);
+
+			function mymagic() {
+				if (screen.width > 767) {
+					document.getElementById('ani-menu').style.visibility = 'visible'
+
+					// do stuff
+				} else {
+
+					document.getElementById('popuppruds').style.visibility = 'visible'
+
+				}
+
+			}
+
+
+
+
+		</script>
+
+	</section>
+</body>
+
+</html>
+
+
+<div class="mapouter">
+	<div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+			src="https://maps.google.com/maps?q=1322%20Goucher%20Boulevard%20%20Towson%20%2C%20MD%2021286&t=&z=13&ie=UTF8&iwloc=&output=embed"
