@@ -1,7 +1,7 @@
 <?php
 $servername = "mysqlcluster14";
 $username = "chenova";
-$password = "Chenova2020";
+$password = "";
 $databaseName = "chenova";
 
 // Create connection
