@@ -5,10 +5,10 @@ header('Access-Control-Allow-Methods: GET, POST');
 
 header("Access-Control-Allow-Headers: X-Requested-With");
 
-$servername = "mysqlcluster14";
-$username = "chenova";
-$password = "Chenova2020";
-$dbname = "chenova";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
